@@ -12,7 +12,9 @@ public class PaymentProcessor {
 
 
         paymentProviders.put('liqpay'
-            , new LiqPayAdapter(new LiqPay())
+    
+
+, new LiqPayAdapter(new LiqPay())
 
         
         );

@@ -1,15 +1,12 @@
 package adapter;
 
-import java.util.Optional;
-
 public class Order {
 
     public Integer id;
     public Integer sellerId;
     public Double total;
-    public Optional<String> sellerCard;
 
-    public Order(Integer id, Integer sellerId, Double total, String sellerCard) {
+    public Order(Integer id, Integer sellerId, Double total) {
         this.id = id;
         this.total = total;
     }
