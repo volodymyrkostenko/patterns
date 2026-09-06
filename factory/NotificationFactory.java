@@ -2,12 +2,13 @@ package factory;
 
 public class NotificationFactory {
     public static Notification createNotification(String type) {
+        Notification notification;
         if (type.equalsIgnoreCase("push")) {
-            return new PushNotification();
+            return new PushNotificationFactory().createNotification();
         } else if (type.equalsIgnoreCase("sms")) {
-            return new SmsNotification();
+            return new SmsNotificationFactory().createNotification();
         } else if (type.equalsIgnoreCase("email")) {
-            return new EmailNotification();
+            return new EmailNotificationFactory().createNotification();
         }
         throw new IllegalArgumentException("Unknown notification type: " + type);
     }
