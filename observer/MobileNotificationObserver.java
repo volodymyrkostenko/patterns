@@ -1,4 +1,4 @@
-package subscriber;
+package observer;
 
 public class MobileNotificationObserver implements StockObserver {
     private String phoneNumber;

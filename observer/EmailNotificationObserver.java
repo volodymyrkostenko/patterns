@@ -1,4 +1,4 @@
-package subscriber;
+package observer;
 
 public class EmailNotificationObserver implements StockObserver {
 

@@ -1,4 +1,4 @@
-package subscriber;
+package observer;
 
 public class StockPriceEvent {
     public String ticker;
