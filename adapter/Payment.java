@@ -2,5 +2,5 @@ package adapter;
 
 public interface Payment {
 
-    public void sendMoneyForOrder(Order order);
+    public void process(Order order);
 }

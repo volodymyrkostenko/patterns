@@ -8,6 +8,7 @@ public class Order {
 
     public Order(Integer id, Integer sellerId, Double total) {
         this.id = id;
+        this.sellerId = sellerId;
         this.total = total;
     }
 
